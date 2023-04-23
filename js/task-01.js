@@ -4,7 +4,7 @@ const numberOfCategories = document.querySelectorAll("#categories .item");
 console.log(`Number of categories: ${numberOfCategories.length}`);
 
 // ! ===================== 1 ========================
-console.log(" ");
+console.log("\n");
 // ! ===================== 2 ========================
 
 numberOfCategories.forEach((categorie) => {
@@ -12,7 +12,7 @@ numberOfCategories.forEach((categorie) => {
   const numOfLi = categorie.querySelectorAll("li").length;
   console.log(`Category: ${titleEl}`);
   console.log(`Elements: ${numOfLi}`);
-  console.log(" ");
+  console.log("\n");
 });
 
 // ! ===================== 2 ========================
