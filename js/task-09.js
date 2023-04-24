@@ -8,6 +8,7 @@ const btnEl = document.querySelector(".change-color");
 const nameColor = document.querySelector(".color");
 
 btnEl.addEventListener("click", () => {
-  bodyEl.style.backgroundColor = getRandomHexColor();
-  nameColor.textContent = getRandomHexColor();
+  const randomColor = getRandomHexColor();
+  bodyEl.style.backgroundColor = randomColor;
+  nameColor.textContent = randomColor;
 });
